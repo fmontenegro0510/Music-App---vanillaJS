@@ -1,4 +1,4 @@
-# Music App! - vanillaJS
+# Dota2 Sounds! - vanillaJS
 ![vanillaJS Logo](https://miro.medium.com/max/3508/1*mcIrDsCNV75yzF2i-YqKEA.jpeg)
 
 Hi! I'm Francisco and try to improve my skill in this beauty language. 
