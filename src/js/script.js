@@ -10,10 +10,11 @@ window.addEventListener('load',()=>{
         "#c0ca33",
         "#ef6c00"
     ];
+    console.log(pads);
     //itero sobre los pads
     pads.forEach((pad, index) =>{
         pad.addEventListener('click', function(){
-            sounds[index].currentTime =0;
+            sounds[index].currentTime = 0;
             sounds[index].play();
             createBubbles(index);
         });

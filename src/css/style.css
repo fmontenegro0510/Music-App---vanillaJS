@@ -34,25 +34,53 @@ header p{
 }
 .pad1{
     background-color: #e53935;
-    background-image: "../images/Aeon_Disk_icon.png";
+    background-image: url("../images/Aeon_Disk_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; /* Resize the background image to cover the entire container */    
 }
 .pad2{
     background-color: #8e24aa;
+    background-image: url("../images/Clarity_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; /* Resize the background image to cover the entire container */    
+
 }
 .pad3{
     background-color: #303f9f;
+    background-image: url("../images/Animal_Courier_\(Radiant\)_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; /* Resize the background image to cover the entire container */    
+
 }
 .pad4{
     background-color: #0097a7;
+    background-image: url("../images/Drum_of_Endurance_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; /* Resize the background image to cover the entire container */    
+
 }
 .pad5{
     background-color: #c0ca33;
+    background-image: url("../images/Faerie_Fire_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; /* Resize the background image to cover the entire container */    
+
 }
 .pad6{
     background-color: #ef6c00;
+    background-image: url("../images/Healing_Salve_icon.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto; /* Resize the background image to cover the entire container */    
 }
 
 .visual > div {
+    height: 100%;
     position: absolute;
     height: 50px;
     width: 50px;
@@ -60,19 +88,20 @@ header p{
     bottom: 0%;
     left: 20%;
     z-index: -1;
+    bottom: 0%;
 }
 
 @keyframes jump{
     0%{
         bottom: 0%;
-        left: 20%;
+        left: 10%;
     }
     50%{
-        bottom: 50%;
+        bottom: 85%;
         left: 50%;
     }
     100%{
         bottom: 0%;
-        right: 80px;
+        left: 90%;
     }
 }
